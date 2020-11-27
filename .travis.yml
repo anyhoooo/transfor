@@ -20,7 +20,6 @@ jobs:
       deploy:
         provider: npm
         email: 1024540250@qq.com
-        api_key: "$NPM_TOKEN"
-        skip_cleanup: true
+        api_token: "$NPM_TOKEN"
         on:
-          all_branches: true
+          master: true
