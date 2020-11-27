@@ -5,6 +5,8 @@ install:
   - npm install
 os:
   - linux
+dist:
+  - "lib"
 
 stages:
   - name: deploy
