@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - "10"
+  - "9"
+install:
+  - npm install
+os:
+  - linux
+
+stages:
+  - name: deploy
+
+jobs:
+  include:
+    - stage: deploy
+      script:
+        - echo "NPM Deploying Started ..."
+        - npm version patch
+
+      deploy:
+        provider: npm
+        email: 1024540250@qq.com
+        api_key: "$NPM_TOKEN"
+        skip_cleanup: true
+        on:
+          all_branches: true
