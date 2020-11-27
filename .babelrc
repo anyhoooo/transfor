@@ -1,0 +1,10 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env" , {
+                //保留es6模块引入方式
+                "modules": false
+            }
+        ]
+    ]
+  }

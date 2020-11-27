@@ -1,0 +1,12 @@
+{
+  "name": "transfor",
+  "version": "0.0.12",
+  "description": "test",
+  "main": "./transfor.cjs.js",
+  "module": "./transfor.es.js",
+  "author": "ibu",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
