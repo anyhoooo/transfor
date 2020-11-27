@@ -1,6 +1,6 @@
 {
   "name": "transfor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test",
   "main": "lib/transfor.cjs.js",
   "module": "lib/transfor.es.js",
@@ -20,7 +20,9 @@
   },
   "author": "ibu",
   "license": "ISC",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@babel/core": "^7.12.7",
     "@babel/preset-env": "^7.12.7",
