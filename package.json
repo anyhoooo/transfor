@@ -5,7 +5,7 @@
   "main": "lib/transfor.cjs.js",
   "module": "lib/transfor.es.js",
   "scripts": {
-    "build": "npx rollup -c",
+    "build": "npm rollup -c",
     "test": "mocha --reporter spec",
     "prepublish": "node tools/copy && npm run build"
   },
