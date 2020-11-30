@@ -1,7 +1,7 @@
 'use strict';
 const expect = require('chai').expect;
-const checkPhone = require('../lib/transfor.cjs.js').checkPhone;
-// import checkPhone from '../src/check/checkPhone'
+const checkPhone = require('../../lib/transfor.cjs.js').checkPhone;
+
 
 describe('checkPhone function return true', () => {
     it('完整国内号码', () => {
