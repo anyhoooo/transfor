@@ -1,6 +1,6 @@
 {
   "name": "transfor",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "test",
   "main": "lib/transfor.cjs.js",
   "module": "lib/transfor.es.js",
