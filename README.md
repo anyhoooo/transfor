@@ -43,3 +43,8 @@ import checkBankCard from "transfor/checkBankCard";
 console.log(checkPhone); // Function
 console.log(checkBankCard); // Function
 ```
+
+```js
+//本地执行后git push，触发git Action构建，npm publish
+npm version [ major | minor | patch ]
+```
