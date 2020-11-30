@@ -23,6 +23,7 @@ folderList.forEach(item => {
 })
 cloneFile(path.resolve(rootPath, 'package-prod.json'), path.resolve(toPath, 'package.json'));
 cloneFile(path.resolve(rootPath, 'README.md'), path.resolve(toPath, 'README.md'));
+console.log('复制成功！！！')
 /**
  * 清空目录（如果没有目录，则创建）
  */
