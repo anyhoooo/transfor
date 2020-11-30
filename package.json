@@ -1,12 +1,12 @@
 {
   "name": "transfor",
-  "version": "1.0.5",
+  "version": "1.0.4",
   "description": "test",
   "main": "lib/transfor.cjs.js",
   "module": "lib/transfor.es.js",
   "scripts": {
     "build": "npx rollup -c",
-    "test": "mocha --reporter spec"
+    "test": "mocha --recursive --reporter spec"
   },
   "keywords": [
     "transfor",
